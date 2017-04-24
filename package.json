@@ -1,0 +1,72 @@
+{
+    "author": "tschrock123@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "pinkamena",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Pinkamena",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "KEY_DATA": 5
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Bluetooth_Color.png",
+                    "name": "BLTH_COLOR",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Battery Sheet-1-0c.png",
+                    "name": "BATT_COLOR",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/pinkamena_color.png",
+                    "name": "BG_COLOR",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Bluetooth_BaW.png",
+                    "name": "BLTH_BAW",
+                    "type": "png-trans"
+                },
+                {
+                    "file": "images/Battery Sheet-1-0.png",
+                    "name": "BATT_BAW",
+                    "type": "png-trans"
+                },
+                {
+                    "file": "images/pinkamena_baw.png",
+                    "name": "BG_BAW",
+                    "type": "png-trans"
+                },
+                {
+                    "file": "fonts/Roboto-Bold-Minified.ttf",
+                    "name": "ROBOTO_BOLD_18",
+                    "trackingAdjust": -1,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Roboto-Bold-Minified.ttf",
+                    "name": "ROBOTO_BOLD_40",
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "289de988-7bf7-4150-a638-95ea74adc55e",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
